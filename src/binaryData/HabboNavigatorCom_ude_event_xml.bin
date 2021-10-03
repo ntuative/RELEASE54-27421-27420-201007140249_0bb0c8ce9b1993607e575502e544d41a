@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="ude_event" width="20" height="20" version="0.0">
+  <window>
+    <container x="0" y="0" width="218" height="53" params="17" style="0" name="ude_event_container" color="0xff3d3d3d" background="true">
+      <children>
+        <container x="0" y="0" width="180" height="40" params="16" style="0" name="triggers_container" />
+        <container x="0" y="0" width="180" height="40" params="16" style="0" name="actions_container" />
+        <bitmap x="200" y="0" width="18" height="18" params="17" style="0" name="remove_event"/>
+        <bitmap x="200" y="18" width="18" height="18" params="17" style="0" name="add_action"/>
+        <bitmap x="183" y="0" width="18" height="18" params="17" style="0" name="propagation"/>
+        <bitmap x="183" y="18" width="18" height="18" params="17" style="0" name="add_trigger"/>
+        <container x="0" y="44" width="218" height="1" params="16" style="0" name="ruler" color="0xff232323" background="true"/>
+      </children>
+    </container>
+  </window>
+</layout>

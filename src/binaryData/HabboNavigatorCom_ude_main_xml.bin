@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="ude_main" width="20" height="20" version="0.0">
+  <window>
+    <container x="5" y="4" width="218" height="196" params="17" style="0" name="ude_main_container" color="0xff3d3d3d" background="true">
+      <children>
+        <text x="64" y="3" width="69" height="13" params="786432" style="0" name="caption" caption="Wired%20Furni">
+          <variables>
+            <var key="font_face" value="Volter Bold" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0xffffff" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+            <var key="auto_size" value="left" type="String"/>
+          </variables>
+        </text>
+        <container x="0" y="20" width="218" height="1" params="16" style="0" name="ruler" color="0xff232323" background="true"/>
+        <container x="0" y="25" width="218" height="1" params="16" style="0" name="events_container" color="0xffffffff" background="true"/>
+        <container x="0" y="25" width="218" height="142" params="16" style="0" name="select_trigger_type_container" color="0xff3d3d3d" visible="false" background="true">
+          <children>
+            <text x="37" y="3" width="132" height="13" params="786432" style="0" name="caption" caption="Add%20Trigger%3A%20Pick%20type">
+              <variables>
+                <var key="font_face" value="Volter Bold" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+                <var key="auto_size" value="left" type="String"/>
+              </variables>
+            </text>
+            <container x="0" y="20" width="218" height="1" params="16" style="0" name="trigger_types_container" color="0xff3d3d3d" background="true"/>
+            <button x="75" y="118" width="72" height="22" params="131089" style="1" name="cancel_add_trigger_button" caption="Cancel" width_min="72" width_max="210"/>
+          </children>
+        </container>
+        <container x="0" y="25" width="218" height="142" params="16" style="0" name="select_action_type_container" color="0xff3d3d3d" visible="false" background="true">
+          <children>
+            <text x="37" y="3" width="132" height="13" params="786432" style="0" name="caption" caption="Add%20Action%3A%20Pick%20type">
+              <variables>
+                <var key="font_face" value="Volter Bold" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+                <var key="auto_size" value="left" type="String"/>
+              </variables>
+            </text>
+            <container x="0" y="20" width="218" height="1" params="16" style="0" name="action_types_container" color="0xff3d3d3d" background="true"/>
+            <button x="75" y="118" width="72" height="22" params="131089" style="1" name="cancel_add_action_button" caption="Cancel" width_min="72" width_max="210"/>
+          </children>
+        </container>
+        <container x="0" y="25" width="218" height="142" params="16" style="0" name="configure_trigger_container" color="0xff3d3d3d" visible="false" background="true">
+          <children>
+            <text x="36" y="3" width="134" height="13" params="786432" style="0" name="caption" caption="Add%20Trigger%3A%20Configure">
+              <variables>
+                <var key="font_face" value="Volter Bold" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+                <var key="auto_size" value="left" type="String"/>
+              </variables>
+            </text>
+            <container x="0" y="20" width="218" height="1" params="16" style="0" name="custom_inputs_container" color="0xffffffff" background="true"/>
+            <button x="146" y="118" width="72" height="22" params="131089" style="1" name="cancel_save_trigger_button" caption="Cancel" width_min="72" width_max="210"/>
+            <button x="0" y="118" width="72" height="22" params="131089" style="1" name="save_trigger_button" caption="Add" width_min="72" width_max="210"/>
+          </children>
+        </container>
+        <container x="0" y="25" width="218" height="142" params="16" style="0" name="configure_action_container" color="0xff3d3d3d" visible="false" background="true">
+          <children>
+            <text x="36" y="3" width="134" height="13" params="786432" style="0" name="caption" caption="Add%20Action%3A%20Configure">
+              <variables>
+                <var key="font_face" value="Volter Bold" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+                <var key="auto_size" value="left" type="String"/>
+              </variables>
+            </text>
+            <container x="0" y="20" width="218" height="1" params="16" style="0" name="custom_inputs_container" color="0xffffffff" background="true"/>
+            <button x="146" y="118" width="72" height="22" params="131089" style="1" name="cancel_save_action_button" caption="Cancel" width_min="72" width_max="210"/>
+            <button x="0" y="118" width="72" height="22" params="131089" style="1" name="save_action_button" caption="Add" width_min="72" width_max="210"/>
+          </children>
+        </container>
+        <container x="0" y="25" width="218" height="142" params="16" style="0" name="select_furni_container" color="0xff3d3d3d" background="true">
+          <children>
+            <text x="52" y="3" width="102" height="13" params="786432" style="0" name="caption" caption="Select%20furniture%3A">
+              <variables>
+                <var key="font_face" value="Volter Bold" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+                <var key="auto_size" value="left" type="String"/>
+              </variables>
+            </text>
+            <text x="0" y="16" width="215" height="47" params="786432" style="0" name="info" caption="This%20entry%20requires%20a%20related%20furniture%20to%20be%20picked.%20Double%20click%20on%20a%20furniture%20in%20room%20to%20pick%20it.%20Then%20click%20proceed%20button">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+                <var key="multiline" value="true" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="66" y="68" width="71" height="15" params="786432" style="0" name="now_picked" caption="Now%20picked%3A">
+              <variables>
+                <var key="font_face" value="Volter Bold" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+                <var key="auto_size" value="left" type="String"/>
+              </variables>
+            </text>
+            <text x="55" y="82" width="96" height="13" params="786432" style="0" name="furni_name_txt" caption="The%20selected%20furni">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+                <var key="auto_size" value="left" type="String"/>
+              </variables>
+            </text>
+            <button x="146" y="118" width="72" height="22" params="131089" style="1" name="cancel_select_furni_button" caption="Cancel" width_min="72" width_max="210"/>
+            <button x="0" y="118" width="72" height="22" params="131089" style="1" name="select_furni_button" caption="Proceed" width_min="72" width_max="210"/>
+          </children>
+        </container>
+        <container x="0" y="170" width="218" height="22" params="17" style="0" name="footer_container" color="0xff3d3d3d" background="true">
+          <children>
+            <button x="0" y="0" width="72" height="22" params="131089" style="1" name="add_event_button" caption="+" width_min="72" width_max="210"/>
+            <button x="73" y="0" width="72" height="22" params="131089" style="1" name="reload_button" caption="Reload" width_min="72" width_max="210"/>
+            <button x="146" y="0" width="72" height="22" params="131089" style="1" name="back_button" caption="Back" width_min="72" width_max="210"/>
+          </children>
+        </container>
+      </children>
+    </container>
+  </window>
+</layout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="ude_trigger" width="20" height="20" version="0.0">
+  <window>
+    <button x="0" y="0" width="218" height="22" params="131089" style="1" name="select_button" caption="caption" width_min="218" width_max="218"/>
+  </window>
+</layout>
